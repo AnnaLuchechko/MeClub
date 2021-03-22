@@ -1,0 +1,55 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  container:{
+    flex:1,
+    backgroundColor:'transparent',
+    justifyContent:'flex-end'
+  },
+  content:{
+    height:120,
+    backgroundColor:'#00041a',
+    flexDirection:'row',
+    alignItems:'center',
+    paddingHorizontal:10
+  },
+  btnFind:{
+    height:50,
+    width:50,
+    borderRadius:25,
+    alignItems:'center',
+    justifyContent:'center',
+    padding:5,
+    backgroundColor:'rgba(180,30,59,1)',
+    marginLeft:10,
+    marginRight:25
+  },
+  btnFindText:{
+    fontSize:8,
+    textAlign:'center',
+    color:'white'
+  },
+  row:{
+    flexDirection:'row',
+    height:35,
+  },
+  borderBottom:{
+    borderBottomWidth:0.5,
+    borderColor:'rgba(255,255,255,0.3)'
+  },
+  textWrap:{
+    flex:1,
+    alignItems:'center',
+    justifyContent:'center'
+  },
+  text:{
+    fontSize:11,
+    color:'white',
+    textAlign:'center',
+  },
+  middleLine:{
+    width:0.5,
+    backgroundColor:'rgba(255,255,255,0.3)'
+  }
+
+});
